@@ -43,11 +43,13 @@ Delete: Click to delete the container.
 Project Structure
 bash
 Copy code
+```
 flask-docker-manager/
 ├── app.py                # Main application file
 ├── requirements.txt      # List of dependencies
 └── templates/
     └── containers.html   # HTML template for displaying containers
+```
 Dependencies
 Flask: Web framework used for the application
 docker-py: SDK for managing Docker containers in Python
